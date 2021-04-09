@@ -72,9 +72,10 @@ p {
     margin: 0 auto;
 }
 
+/* Header Section */
+/* THESE HEADER CSS RULES APPLY TO THE HEADER IN THE ABOUT PAGE AS WELL */
 header{
     display: flex;
-    /* border: 1px solid black; */
     height: 5vh;
     max-width: 100%;
     margin-bottom: 1.5%;
@@ -84,16 +85,13 @@ header{
 header div{
     display: flex;
     height: 5vh;
-    /* border: 1px solid blue; */
 }
 
 header .logo{
-    /* border: 1px solid blue; */
     margin: auto 0 auto 0;
 }
 
 header nav{
-    /* border: 1px solid red; */
     width: 77%;
     display: flex;
     margin: 0 2% 0 0;
@@ -102,7 +100,6 @@ header nav{
 header a{
     text-decoration: none;
     color: black;
-    /* border: 1px solid purple; */
     padding: 2% 2% 2% 2%;
     justify-content: space-evenly;
     width: 20%;
@@ -112,6 +109,7 @@ header a{
 }
 
 
+/* Jumbo Photo Section */
 .jumboPhoto{
     max-width: 100%;
     margin: 1.5% 0;
@@ -121,6 +119,7 @@ header a{
     width: 100%;
 }
 
+/* Top Section */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +134,7 @@ header a{
     padding-bottom: 20px;  
 }
 
+/* Middle Section (Boxes Section) */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -202,6 +202,7 @@ header a{
     background-color: dodgerblue;
 }
 
+/* Bottom Section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -216,6 +217,7 @@ header a{
     padding-right: 0;
 }
 
+/* Footer Section */
 footer {
     width: 100%;
     background: black;
@@ -239,7 +241,7 @@ footer nav a {
 
 /* Top Section */
 .aboutTopSection{
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed grey;
     margin: 2% 0 4.5% 0;
     padding: 0 0 3% 0;
 }
@@ -257,21 +259,17 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    /* border: 1px solid red; */
     margin: 0 0 0% 0;
-    height: 50vh;
-
+    height: 48.5vh;
 }
 
 .aboutMiddleSection .middleSectionContainer{
-    width: 50%;
-    /* border: 1px solid blue; */
-    margin: 1% 0 0% 0;
-    
+    width: 46%;
+    margin: 1% auto 2% auto;
+    border-bottom: 1px dashed grey;
 }
 
 .aboutMiddleSection .middleSectionContainer div{
-    /* border: 1px solid purple; */
     height: 10vh;
     display: flex;
     flex-direction: column;
@@ -298,3 +296,15 @@ footer nav a {
     text-align: center;
 }
 
+/* Bottom Section */
+.aboutBottomSection{
+    padding: 2.5% 0 3% 0;
+}
+
+.aboutBottomSection h2{
+    font-size: 1.2rem;
+}
+
+.aboutBottomSection p{
+    font-size: 1rem;
+}
