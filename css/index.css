@@ -235,3 +235,66 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About Page */
+
+/* Top Section */
+.aboutTopSection{
+    border-bottom: 1px dashed black;
+    margin: 2% 0 4.5% 0;
+    padding: 0 0 3% 0;
+}
+
+.aboutTopSection h2{
+    font-size: 1.3rem;
+}
+
+.aboutTopSection p{
+    font-size: 1.1rem;
+}
+
+/* Middle Section */
+.aboutMiddleSection{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* border: 1px solid red; */
+    margin: 0 0 0% 0;
+    height: 50vh;
+
+}
+
+.aboutMiddleSection .middleSectionContainer{
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin: 1% 0 0% 0;
+    
+}
+
+.aboutMiddleSection .middleSectionContainer div{
+    /* border: 1px solid purple; */
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2% 0 0 0;
+}
+
+.aboutMiddleSection h3{
+    font-size: 1.5rem;
+}
+
+.aboutMiddleSection p{
+    font-size: 1.2rem;
+}
+
+.aboutMiddleSection a{
+    text-decoration: none;
+    color: black;
+    border: 2.5px solid black;
+    border-radius: 10%; 
+    padding: 2% 2%;
+    font-size: 1.3rem;
+    width: 35%;
+    text-align: center;
+}
+
