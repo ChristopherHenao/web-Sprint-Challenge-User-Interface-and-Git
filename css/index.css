@@ -56,6 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -71,6 +72,54 @@ p {
     margin: 0 auto;
 }
 
+/* Header Section */
+/* THESE HEADER CSS RULES APPLY TO THE HEADER IN THE ABOUT PAGE AS WELL */
+header{
+    display: flex;
+    height: 5vh;
+    max-width: 100%;
+    margin-bottom: 1.5%;
+    justify-content: space-between;
+}
+
+header div{
+    display: flex;
+    height: 5vh;
+}
+
+header .logo{
+    margin: auto 0 auto 0;
+}
+
+header nav{
+    width: 77%;
+    display: flex;
+    margin: 0 2% 0 0;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 2% 2% 2%;
+    justify-content: space-evenly;
+    width: 20%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5.5% auto 0 auto;
+}
+
+
+/* Jumbo Photo Section */
+.jumboPhoto{
+    max-width: 100%;
+    margin: 1.5% 0;
+}
+
+.mainPhoto{
+    width: 100%;
+}
+
+/* Top Section */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +134,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle Section (Boxes Section) */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +162,47 @@ p {
     justify-content: center;
 }
 
+#one{
+    background-color: teal;
+}
+
+#two{
+    background-color: gold;
+}
+
+#three{
+    background-color: cadetblue;
+}
+
+#four{
+    background-color: coral;
+}
+
+#five{
+    background-color: crimson;
+}
+
+#six{
+    background-color: forestgreen;
+}
+
+#seven{
+    background-color: darkorchid;
+}
+
+#eight{
+    background-color: hotpink;
+}
+
+#nine{
+    background-color: indigo;
+}
+
+#ten{
+    background-color: dodgerblue;
+}
+
+/* Bottom Section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +217,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer Section */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +235,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+/* Top Section */
+.aboutTopSection{
+    border-bottom: 1px dashed grey;
+    margin: 2% 0 4.5% 0;
+    padding: 0 0 3% 0;
+}
+
+.aboutTopSection h2{
+    font-size: 1.3rem;
+}
+
+.aboutTopSection p{
+    font-size: 1.1rem;
+}
+
+/* Middle Section */
+.aboutMiddleSection{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 0 0% 0;
+    height: 48.5vh;
+}
+
+.aboutMiddleSection .middleSectionContainer{
+    width: 46%;
+    margin: 1% auto 2% auto;
+    border-bottom: 1px dashed grey;
+}
+
+.aboutMiddleSection .middleSectionContainer div{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2% 0 0 0;
+}
+
+.aboutMiddleSection h3{
+    font-size: 1.5rem;
+}
+
+.aboutMiddleSection p{
+    font-size: 1.2rem;
+}
+
+.aboutMiddleSection a{
+    text-decoration: none;
+    color: black;
+    border: 2.5px solid black;
+    border-radius: 10%; 
+    padding: 2% 2%;
+    font-size: 1.3rem;
+    width: 35%;
+    text-align: center;
+}
+
+/* Bottom Section */
+.aboutBottomSection{
+    padding: 2.5% 0 3% 0;
+}
+
+.aboutBottomSection h2{
+    font-size: 1.2rem;
+}
+
+.aboutBottomSection p{
+    font-size: 1rem;
 }
